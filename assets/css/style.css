@@ -156,9 +156,11 @@ hr {
     clear: both;
     margin-bottom: 50px;
 }
+
 .right-about-heading h2 {
     text-align: right;
 }
+
 .right-about-heading p {
     text-align: right;
 }
@@ -212,6 +214,7 @@ hr {
 #times h2 {
     color: #fafafa;
 }
+
 /* footer */
 
 footer {
@@ -319,5 +322,17 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 0 20px;
+    }
+
+    #photos {
+        column-count: 3;
+    }
+}
+
+/* for small screen sizes 800px and down */
+
+@media screen and (max-width: 800px) {
+    #photos {
+        column-count: 2;
     }
 }
